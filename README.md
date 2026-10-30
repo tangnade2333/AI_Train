@@ -170,7 +170,7 @@ all     13      35     0.785 0.371 0.495  0.219
 
 ```bash
 .venv/bin/yolo detect predict \
-  model=runs/detect/runs/detect/ext_v3/weights/best.pt \
+  model=runs/train/ext_v4b/weights/best.pt \
   source=dataset/test \        # 可以是图片、文件夹、视频文件、摄像头0
   conf=0.25 \                  # 只显示置信度≥0.25的框
   save=True                    # 结果图存到 runs/detect/predict*/

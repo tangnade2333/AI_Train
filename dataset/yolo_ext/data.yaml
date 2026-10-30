@@ -1,6 +1,0 @@
-path: dataset/yolo_ext
-train: images/train
-val: images/val
-nc: 1
-names:
-  0: screwdriver
